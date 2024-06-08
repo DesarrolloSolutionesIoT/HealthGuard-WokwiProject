@@ -1,0 +1,24 @@
+{
+  "name": "heart-rate-sensor",
+  "author": "HealthGuard",
+  "pins": [
+    "VCC",
+    "GND",
+    "D0",
+    "A0",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "heartRate",
+      "label": "Heart Rate BPM",
+      "type": "range",
+      "min": 0,
+      "max": 200,
+      "step": 1
+    }
+
+  ]
+}

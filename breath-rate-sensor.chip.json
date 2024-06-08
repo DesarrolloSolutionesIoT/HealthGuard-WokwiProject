@@ -1,0 +1,24 @@
+{
+  "name": "breath-rate-sensor",
+  "author": "HealthGuard",
+  "pins": [
+    "VCC",
+    "GND",
+    "D0",
+    "A0",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "breathRate",
+      "label": "Breath Rate (breaths/min)",
+      "type": "range",
+      "min": 0,
+      "max": 30,
+      "step": 1,
+      "default": 15
+    }
+  ]
+}

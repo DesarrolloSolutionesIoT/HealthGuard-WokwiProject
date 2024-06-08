@@ -1,0 +1,24 @@
+{
+  "name": "oxigen-level-sensor",
+  "author": "HealthGuard",
+  "pins": [
+    "VCC",
+    "GND",
+    "D0",
+    "A0",
+    "",
+    "",
+    ""
+  ],
+  "controls": [
+    {
+      "id": "oxigenLevel",
+      "label": "Oxygen Level (%)",
+      "type": "range",
+      "min": 60,
+      "max": 100,
+      "step": 1,
+      "default": 10
+    }
+  ]
+}
